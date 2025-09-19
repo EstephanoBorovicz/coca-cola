@@ -45,6 +45,7 @@ main{
 }
 
 .content-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     color: #FFF;
     font-size: 2.25rem;
