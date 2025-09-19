@@ -38,6 +38,7 @@ header nav{
 }
 
 main{
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +49,7 @@ main{
     color: #FFF;
     font-size: 2.25rem;
     width: 212px;
-    transform: translate(-100%);
+    transform: translate(-120%);
     text-align: end;
     margin-right: 24px;
 }
@@ -74,7 +75,7 @@ footer{
         align-items: flex-end;
     }
     .content-text{
-        transform: 0%;
+        transform: translateX(0);
         top: 80px;
         font-size: 1rem;
         width: 100px;
